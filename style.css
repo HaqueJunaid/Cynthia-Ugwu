@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'General Sans';
+    font-family: 'Poppins';
     scroll-behavior: smooth;
 }
 
@@ -11,6 +11,47 @@ html, body {
     height: 100%;
     background-color: #000;
     color: #fff;
+}
+
+#loader {
+    width: 100%;
+    height: 100vh;
+    background-color: #a1a1a1;
+    position: fixed;
+    z-index: 99;
+}
+
+#loader #horizon {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+    color: #000;
+} 
+
+#loader #horizon h3 {
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+
+#loader #horizon span {
+    display: flex;
+    width: 7vw;
+    height: 2px;
+    border-radius: 2px;
+    background-color: white;
+    position: relative;
+}
+
+#loader #horizon span #load {
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    background-color: #000;
 }
 
 #cursor {
@@ -52,7 +93,13 @@ nav {
     background-color: #000;
     position: fixed;
     top: 0;
-    z-index: 99;
+    z-index: 98;
+    overflow: hidden;
+}
+
+.takeup {
+    position: relative;
+    top: 10vh;
 }
 
 nav h4:nth-child(1) {
@@ -416,4 +463,3 @@ footer #second h5 {
     text-transform: uppercase;
     font-weight: 500;
 }
-

@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Poppins';
     scroll-behavior: smooth;
-    text-decoration: none;
 }
 
 #cursor {
@@ -76,7 +75,7 @@ nav h4:nth-child(2):hover::before {
     width: 100%;
 }
 
-#plug1 {
+#ixp1 {
     margin-top: 20vw;
     padding: 0 3vw;
     width: 100%;
@@ -86,32 +85,32 @@ nav h4:nth-child(2):hover::before {
     margin-bottom: 1vw;
 }
 
-#plug1 h1 {
+#ixp1 h1 {
     line-height: 1;
     font-size: 10vw;
     font-weight: 500;
     opacity: 0.7;
 }
 
-#plug1 p {
+#ixp1 p {
     font-size: 1.1vw;
     margin-bottom: 0.7vw;
     font-weight: 500;
 }
 
-#plug2 {
+#ixp2 {
     width: 100%;
     padding: 0 3vw 6vw 3vw;
     position: relative;
 }
 
-#plug2 #imagediv {
+#ixp2 #videodiv {
     width: 100%;
     height: 100%;
     margin-bottom: 3vw;
 }
 
-#plug2 #imagediv img {
+#ixp2 #videodiv video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -185,85 +184,14 @@ nav h4:nth-child(2):hover::before {
     height: 70%;
 }
 
-#plug3 .coverdiv video {
+#ixp3 .coverdiv video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top;
 }
 
-#plug4 {
-    width: 100%;
-    padding: 3vw 3vw 10vw 3vw;
-    display: flex;
-    align-items: start;
-    justify-content: space-between
-}
-
-#plug4 #left {
-    width:40%;
-}
-
-#plug4 #left h1 {
-    margin-top: 2vw;
-    font-size: 5vw;
-    font-weight: 500;
-    opacity: 0.7;
-    margin-bottom: 2vw;
-}
-
-#plug4 #left h6 {
-    color: #A3A3A3;
-    font-size: 1vw;
-    font-weight: 400;
-}
-
-#plug4 #left p {
-    font-weight: 400;
-    font-size: 0.9vw;
-}
-
-#plug4 #right {
-    margin-top: 8vw;
-    width: 45%;
-}
-
-#plug4 #right h6 {
-    color: #A3A3A3;
-    font-weight: 300;
-    font-size: 0.9vw;
-    margin-bottom: 0.2vw;
-}
-
-#plug4 #right p {
-    font-size: 0.9vw;
-    font-weight: 300;
-    margin-bottom: 2vw;
-}
-
-#plug5 {
-    width: 100%;
-    height: 120vh;
-    background-color: #0E0E0E;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#plug5 #videodiv {
-    width: 85%;
-    height: 70%;
-}
-
-#plug5 #videodiv video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-
-#plug6 {
+#ixp4 {
     width: 100%;
     padding: 3vw 3vw 5vw 3vw;
     display: flex;
@@ -271,11 +199,11 @@ nav h4:nth-child(2):hover::before {
     justify-content: space-between
 }
 
-#plug6 #left {
+#ixp4 #left {
     width:40%;
 }
 
-#plug6 #left h1 {
+#ixp4 #left h1 {
     margin-top: 2vw;
     font-size: 5vw;
     font-weight: 500;
@@ -283,103 +211,170 @@ nav h4:nth-child(2):hover::before {
     margin-bottom: 2vw;
 }
 
-#plug6 #left h6 {
+#ixp4 #left h6 {
     color: #A3A3A3;
     font-size: 1vw;
     font-weight: 400;
 }
 
-#plug6 #left p {
+#ixp4 #left p {
     font-weight: 400;
     font-size: 0.9vw;
 }
 
-#plug6 #right {
+#ixp4 #right {
     margin-top: 8vw;
     width: 45%;
 }
 
-#plug6 #right h6 {
+#ixp4 #right h6 {
     color: #A3A3A3;
     font-weight: 300;
     font-size: 0.9vw;
     margin-bottom: 0.2vw;
 }
 
-#plug6 #right p {
+#ixp4 #right p {
     font-size: 0.9vw;
     font-weight: 300;
     margin-bottom: 2vw;
 }
 
-#plug7 {
+#ixp5 {
     width: 100%;
-    background-color: #0E0E0E;
-    position: relative;
+    height: 110vh;
+    background-color: #0C0B1F;
     display: flex;
     align-items: center;
-    padding: 0vw 3vw;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-#plug7 #fast {
-    height: 100vh;
-    width: 49%;
-    position: relative;
-    background-color: #0E0E0E;
-}
-
-#plug7 #fast img {
+#ixp5 #videodiv1 {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: top;
-}
-
-#plug7 #slow {
-    height: 100vh;
-    width: 49%;
-    position: relative;
-    background-color: #0E0E0E;
-}
-
-#plug7 #slow img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
-}
-
-#plug8 {
-    margin-top: 10vw;
-    width: 100%;
-    background-color: #fff;
-    padding: 5w 8vw;
-    position: relative;
-}
-
-#plug8 video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-#plug9 {
-    margin-top:12vw;
-    width: 100%;
-    position: relative;
-    height: 100vh;
     overflow: hidden;
 }
 
-#plug9 img {
+#ixp5 #videodiv1 video {
     width: 100%;
-    scale: 1.2;
     height: 100%;
     object-fit: cover;
 }
 
-#plug10 {
+#ixp6 {
+    width: 100%;
+    padding: 3vw 3vw 5vw 3vw;
+    display: flex;
+    align-items: start;
+    justify-content: space-between
+}
+
+#ixp6 #left {
+    width:55%;
+}
+
+#ixp6 #left h1 {
+    margin-top: 2vw;
+    font-size: 4.5vw;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-bottom: 2vw;
+}
+
+#ixp6 #left h6 {
+    color: #A3A3A3;
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+#ixp6 #left p {
+    width: 70%;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+
+#ixp6 #right {
+    margin-top: 10vw;
+    width: 40%;
+}
+
+#ixp6 #right h6 {
+    color: #A3A3A3;
+    font-weight: 300;
+    font-size: 0.9vw;
+    margin-bottom: 0.2vw;
+}
+
+#ixp6 #right p {
+    font-size: 0.9vw;
+    font-weight: 300;
+    margin-bottom: 2vw;
+}
+
+#ixp7 {
+    width: 100%;
+    height: 100vh;
+    background-color: #0E0E0E;
+    position: relative;
+}
+
+#ixp7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#ixp8 {
+    width: 100%;
+    padding: 3vw 3vw 5vw 3vw;
+    display: flex;
+    align-items: start;
+    justify-content: space-between
+}
+
+#ixp8 #left {
+    width:55%;
+}
+
+#ixp8 #left h1 {
+    margin-top: 2vw;
+    font-size: 4.5vw;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-bottom: 2vw;
+}
+
+#ixp8 #left h6 {
+    color: #A3A3A3;
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+#ixp8 #left p {
+    width: 70%;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+
+#ixp9 {
+    width: 100%;
+    position: relative;
+    height: 120vh;
+    padding: 5vw 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E0E0E;
+}
+
+#ixp9 img {
+    height: 100%;
+    object-fit: cover;
+}
+
+#ixp10 {
     width: 100%;
     height: 220vh;
     display: flex;
@@ -415,20 +410,25 @@ nav h4:nth-child(2):hover::before {
     height: 100%;
 }
 
-#plug11 {
+.row .box video {
+    width: 100%;
+    object-fit: cover;
+}
+
+#ixp11 {
     z-index: 99;
     width: 100%;
     padding: 10vw 15vw 10vw 3vw;
 }
 
-#plug11 h3 {
+#ixp11 h3 {
     font-size: 1vw;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-#plug11 .elem  {
+#ixp11 .elem  {
     width: 100%;
     display: block;
     padding: 1vw 0;
@@ -438,16 +438,50 @@ nav h4:nth-child(2):hover::before {
     border-bottom: 1px solid #A3A3A3;
 }
 
-#plug11 .elem h1 {
+#ixp11 .elem h1 {
     font-size: 8vw;
     font-weight: 500;
-    opacity: 0.6;
+    opacity: 0.7;
     text-transform: uppercase;
-    color: #fff;
 }
 
-#plug11 .elem p {
+#ixp11 .elem p {
     font-size: 1.1vw;
     font-weight: 500;
     color: #fff;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 3vw;
+}
+
+footer #first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    text-transform: uppercase;
+}
+
+footer #first h4 {
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+
+footer #second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+footer #second h5 {
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    font-weight: 500;
 }

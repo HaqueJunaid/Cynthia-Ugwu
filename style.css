@@ -18,7 +18,7 @@ html, body {
     height: 100vh;
     background-color: #a1a1a1;
     position: fixed;
-    z-index: 99;
+    z-index: 98;
 }
 
 #loader #horizon {
@@ -49,7 +49,7 @@ html, body {
 
 #loader #horizon span #load {
     display: inline-block;
-    width: 10%;
+    width: 0%;
     height: 100%;
     background-color: #000;
 }
@@ -93,7 +93,7 @@ nav {
     background-color: #000;
     position: fixed;
     top: 0;
-    z-index: 98;
+    z-index: 95;
     overflow: hidden;
 }
 

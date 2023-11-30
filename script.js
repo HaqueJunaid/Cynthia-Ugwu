@@ -18,63 +18,72 @@ function loco() {
 }
 loco()
 
+let main = document.querySelector("#main")
+main.style.display = 'none'
+
 function page1Animation() {
     let tl = gsap.timeline()
 
-    var per = document.querySelector("#item")
-    var inc = document.querySelector("span #load")
-    let i = 0
-    while (i < 100) {
-        setInterval(() => {
-            per.innerHTML = i + "%";
-            inc.style.width=i+40+"px";
-        }, 1000);
-        i = i + 2
-    }
+    
 
-    console.log(i)
+    var num = document.querySelector("#percentage");
+    var progress = document.querySelector("#load");
+    var count = 0;
+    var per = 0;
+    setInterval(function () {
+        if (count == 100 || per == 100) {
+            clearInterval(loading);
+        } else {
+            per = per + 1;
+            count = count + 1;
+            progress.style.width = per + '%';
+            num.textContent = count + '%'
+            if (count == 100) {
+                main.style.display = 'block'
+                exit();
+            }
+        }
+    }, 12);
 
-    if (i >= 99) {
         tl.to("#loader", {
             top: "-100vh",
             duration: 0.8,
             delay: 1.5,
         })
-    
+
         tl.to("nav .takeup", {
             top: 0,
             stagger: 0.1
         })
-    
+
         tl.to(".binding h1", {
             top: 0,
             dration: 0.5,
             stagger: 0.2,
             ease: Power1
         })
-    
+
         tl.to(".binding .pbinding p", {
             top: 0,
             dration: 0.5,
             stagger: 0.5,
             ease: Power1
         })
-    
+
         tl.to("#other .binding h6", {
             top: 0,
             stagger: 0.2,
             ease: Power1,
             delay: -0.5
         })
-    
+
         tl.from("#page1-footer", {
             opacity: 0,
             delay: -0.3,
             duration: 0.5
         })
-
     }
-}
+
 page1Animation()
 
 function bigCursor() {
